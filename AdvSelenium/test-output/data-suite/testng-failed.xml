@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [data-suite]">
+  <test thread-count="5" name="data-test(failed)">
+    <parameter name="password" value="manager"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://localhost:8888/"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="typesOfExecution.ParallelExecution_CrossBrowser">
+        <methods>
+          <include name="commonData"/>
+        </methods>
+      </class> <!-- typesOfExecution.ParallelExecution_CrossBrowser -->
+    </classes>
+  </test> <!-- data-test(failed) -->
+</suite> <!-- Failed suite [data-suite] -->

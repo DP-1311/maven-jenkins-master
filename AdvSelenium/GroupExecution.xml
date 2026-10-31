@@ -1,0 +1,23 @@
+<suite name="group-suite">
+	<groups>
+		<run>
+			<include name="smoke"> </include>
+		</run>
+	</groups>
+	<test name="group-test">
+		<classes>
+			<class name="typesOfExecution.OrgTest" />
+			<class name="typesOfExecution.LeadTest" />
+			<methods>
+				<include name="modifyOrgTest" />
+			</methods>
+			<class name="typesOfExecution.ContactTest" />
+			<methods>
+				<include name="createOrgTest"></include>
+			</methods>
+		</classes>
+	</test>
+</suite>
+
+
+Need to discuss this

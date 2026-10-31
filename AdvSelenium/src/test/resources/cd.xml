@@ -1,0 +1,11 @@
+<suite name="data-suite">
+	<test name="data-test">
+		<parameter name="bro" value="chrome" />
+		<parameter name="url" value="http://localhost:8888/" />
+		<parameter name="un" value="admin" />
+		<parameter name="pwd" value="manager" />
+		<classes>
+			<class name="typesOfExecution.ParallelExecution_CrossBrowser" />
+		</classes>
+	</test>
+</suite>

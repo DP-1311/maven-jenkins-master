@@ -1,0 +1,15 @@
+<suite name="data-suite">
+	<test name="data-test">
+		<classes>
+			<class name="typesOfExecution.OrgTest" />
+			<class name="typesOfExecution.LeadTest" />
+			<methods>
+				<include name="modifyOrgTest" />
+			</methods>
+			<class name="typesOfExecution.ContactTest" />
+			<methods>
+				<include name="createOrgTest"></include>
+			</methods>
+		</classes>
+	</test>
+</suite>
