@@ -66,7 +66,7 @@ public class ContactTest {
 
 // Java Utility
 		
-		String date=JavaUtility.getTodaysDateTime();
+		long date=JavaUtility.getTodaysDateTime();
 		
 		int number=JavaUtility.generateRandomNumber();
 		
