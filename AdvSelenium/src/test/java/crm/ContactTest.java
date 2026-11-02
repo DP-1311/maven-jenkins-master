@@ -66,7 +66,7 @@ public class ContactTest {
 
 // Java Utility
 		
-		long date=JavaUtility.getTodaysDateTime();
+//		CharSequence[] date=JavaUtility.getTodaysDateTime();
 		
 		int number=JavaUtility.generateRandomNumber();
 		
@@ -106,7 +106,7 @@ public class ContactTest {
 		WebElement firstname=cp.getFirstName();
 		
 //		fnEle.sendKeys(date); // Java Utility date class
-		firstname.sendKeys(date);
+//		firstname.sendKeys(date);
 		
 		driver.findElement(By.name("lastname")).sendKeys(exl);
 //		System.out.println(exl);
