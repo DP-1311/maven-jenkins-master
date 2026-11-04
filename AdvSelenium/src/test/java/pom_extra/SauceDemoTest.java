@@ -85,6 +85,8 @@ public class SauceDemoTest {
 		WebElement postCode=ip.getpostCode();
 		WebElement button=ip.getContinueButton();
 		
+		Thread.sleep(5000);
+		
 		firstName.sendKeys("Sauce");
 		lastName.sendKeys("Demo");
 		postCode.sendKeys("11111");
